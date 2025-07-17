@@ -11,14 +11,14 @@
 /* X(state_name, gpio_port, gpio_pin) */
 #if defined(NRF52840_XXAA)
 #define X_APPLICAITON_STATES                                                                       \
-	X(error, gpio1, 7)                                                                         \
-	X(working, gpio0, 16)                                                                      \
-	X(registered, gpio0, 15)                                                                   \
-	X(time_sync, gpio0, 14)                                                                    \
-	X(connected, gpio0, 13)                                                                    \
-	X(dfu, gpio1, 1)                                                                           \
-	X(sending, gpio1, 3)                                                                       \
-	X(receiving, gpio1, 2)
+	X(error, gpio1, 9)                                                                         \
+	X(working, gpio1, 9)                                                                      \
+	X(registered, gpio1, 9)                                                                   \
+	X(time_sync, gpio0, 8)                                                                    \
+	X(connected, gpio0, 12)                                                                    \
+	X(dfu, gpio1, 9)                                                                           \
+	X(sending, gpio1, 9)                                                                       \
+	X(receiving, gpio1, 9)
 #elif defined(NRF5340_XXAA)
 #define X_APPLICAITON_STATES                                                                       \
 	X(error, gpio1, 8)                                                                         \
