@@ -26,8 +26,6 @@
 
 LOG_MODULE_REGISTER(app, CONFIG_SIDEWALK_LOG_LEVEL);
 
-// Test comment for commit
-
 static uint32_t persistent_link_mask;
 
 static void on_sidewalk_event(bool in_isr, void *context)
